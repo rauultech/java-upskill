@@ -18,4 +18,8 @@ public class Person {
     void setName(String newName) {
         this.name = newName;
     }
+
+    public String toString() {
+        return "Person{id=" + id + ", name='" + name + "', age=" + age + "}";
+    }
 }
